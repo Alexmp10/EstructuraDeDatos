@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1421956908 source:c:\users\alex\documents\4to. semestre\estructuradedatos\busquedagenerica\main.cpp
+	<iostream>
+	<cstdlib>
+	"BusquedaGenerica.h"
+
+1421957780 c:\users\alex\documents\4to. semestre\estructuradedatos\busquedagenerica\include\busquedagenerica.h
+	<iostream>
+
+1421956953 source:c:\users\alex\documents\4to. semestre\estructuradedatos\busquedagenerica\src\busquedagenerica.cpp
+	"BusquedaGenerica.h"
+
