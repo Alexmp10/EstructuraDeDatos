@@ -1,0 +1,2 @@
+#include "BusquedaGenerica.h"
+

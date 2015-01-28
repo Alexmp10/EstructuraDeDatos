@@ -1,23 +1,20 @@
-#ifndef LIBRO_H
-#define LIBRO_H
+#ifndef __busquedaGenerica__Libro__
+#define __busquedaGenerica__Libro__
 
 #include <iostream>
 #include <string>
 
-class Libro
-{
-    private:
+class Libro {
+private:
+    std::string titulo;
+    int anio_pub;
+    std::string isbn;
 
-        std::string titulo;
-        int anio_pub;
-        std::string isbn;
+public:
+    Libro();
+    Libro(std::string, int, std::string);
 
-    public:
-        Libro();
-        Libro(std::string, int, std::string);
-
-        friend ostream & operator <<(std::ostream &, Libro&);
+    friend std::ostream & operator <<(std::ostream &, Libro &);
 
 };
-
-#endif // LIBRO_H
+#endif /* defined(__busquedaGenerica__Libro__) */
