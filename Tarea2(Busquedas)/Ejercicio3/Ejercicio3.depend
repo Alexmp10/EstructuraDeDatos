@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1423797194 source:c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\tarea2(busquedas)\ejercicio3\main.cpp
+	<iostream>
+	"Ordenamiento.h"
+	"Libro.h"
+
+1423793980 c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\tarea2(busquedas)\ejercicio3\include\ordenamiento.h
+	<iostream>
+
+1423792328 c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\tarea2(busquedas)\ejercicio3\include\libro.h
+	<iostream>
+	<string.h>
+
+1423794461 source:c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\tarea2(busquedas)\ejercicio3\src\libro.cpp
+	"Libro.h"
+
+1423790805 source:c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\tarea2(busquedas)\ejercicio3\src\ordenamiento.cpp
+	"Ordenamiento.h"
+

@@ -14,7 +14,7 @@ int main()
     int enteros[longitud];
 
     for (int i = 0; i < longitud; ++i) {
-        enteros[i] = i;
+        enteros[i] = i+1;
     }
 
     imprimeArreglo<int>(enteros, longitud);
@@ -25,13 +25,21 @@ int main()
 
     int existe = BusquedaGenerica<int>::busquedaSecuencialPosicion( enteros, valor, longitud);
 
-      if (existe) {
-        std::cout << "El valor si existe en el arreglo" << std::endl;
+      if (existe != -1) {
+        std::cout << "La posicion en la que se encuentra es:" <<existe << std::endl;
     }
     else {
-        std::cout << "El valor no existe en el arreglo" << std::endl;
+        std::cout << "El elemento no existe " <<-1 << std::endl;
     }
 
+    int pos = BusquedaGenerica<int>::busquedaBinariaPosicion(enteros , valor, enteros[0], enteros[longitud]);
+
+     if (pos != -1) {
+        std::cout << "La posicion en la que se encuentra es:" <<existe << std::endl;
+    }
+    else {
+        std::cout << "El elemento no existe " <<-1 << std::endl;
+    }
 
     return 0;
 }

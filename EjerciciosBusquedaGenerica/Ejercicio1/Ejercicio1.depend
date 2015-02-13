@@ -1,8 +1,11 @@
 # depslib dependency file v1.0
-1422304088 source:c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\ejerciciosbusquedagenerica\ejercicio1\main.cpp
+1422559716 source:c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\ejerciciosbusquedagenerica\ejercicio1\main.cpp
 	<iostream>
 	<cstdlib>
 	"BusquedaGenerica.h"
 
-1422303780 c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\ejerciciosbusquedagenerica\ejercicio1\include\busquedagenerica.h
+1422561221 c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\ejerciciosbusquedagenerica\ejercicio1\include\busquedagenerica.h
+
+1422304097 source:c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\ejerciciosbusquedagenerica\ejercicio1\src\busquedagenerica.cpp
+	"BusquedaGenerica.h"
 
