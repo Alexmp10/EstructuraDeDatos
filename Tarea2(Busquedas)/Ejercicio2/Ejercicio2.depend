@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1423802105 source:c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\tarea2(busquedas)\ejercicio2\main.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"Ordenamiento.h"
+
+1423802163 c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\tarea2(busquedas)\ejercicio2\include\ordenamiento.h
+
+1423799414 source:c:\users\alex\documents\4to.semestre\estructuradedatos\estructuradedatos\tarea2(busquedas)\ejercicio2\src\ordenamiento.cpp
+	"Ordenamiento.h"
+
